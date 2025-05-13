@@ -95,7 +95,7 @@ Queue input = getInput("PathToinput.txt");
 
 > Replace the `"PathTo..."` strings with actual paths to your `.txt` files.
 
-Sample inputs created by [Beyza Eken](github.com/beken) are provided in the `inputs` folder
+Sample inputs created by [Beyza Eken](http://github.com/beken) are provided in the `inputs` folder
 
 ## Execution
 
