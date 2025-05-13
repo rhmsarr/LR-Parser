@@ -116,52 +116,10 @@ To run the parser:
 gcc -g lrParser.c string_stack.c string_queue.c tree.c -o lrParser
 ```
 
-1. Run the executable
+2. Run the executable
 
 > MacOS X `./lrParser`
 > 
 
 > Windows `.\lrParser`
 > 
-
-## Samples of the code running
-
-### Correct input - input1.txt
-
-```c
-id + id * id $
-```
-
-Parsing result for correct input (provided input1.txt)
-
-![Screenshot 2025-05-04 at 19.45.19.png](attachment:616b8d3b-5094-4800-84af-4904e55b5add:Screenshot_2025-05-04_at_19.45.19.png)
-
-### Correct input - input2.txt
-
-```c
-id * id + id $
-```
-
-Parsing result for correct input (provided input2.txt)
-
-![Screenshot 2025-05-04 at 19.47.22.png](attachment:d4e5f941-176d-44e3-95cc-2c1be26e12e5:Screenshot_2025-05-04_at_19.47.22.png)
-
-### Incorrect input - input7.txt
-
-```c
-id + * id $
-```
-
-Parsing result for incorrect input (provided input7.txt)
-
-![Screenshot 2025-05-04 at 19.49.38.png](attachment:fae1e652-6dc8-4c22-a7fd-b4bab787ff41:Screenshot_2025-05-04_at_19.49.38.png)
-
-### Incorrect input - input9.txt
-
-```c
-( id + id ) * ( id - id ) + id * id $
-```
-
-Parsing result for incorrect input (provided input9.txt)
-
-![Screenshot 2025-05-04 at 19.51.09.png](attachment:ea607eee-a9bc-4302-ae5f-9ae2fd246671:Screenshot_2025-05-04_at_19.51.09.png)
